@@ -1,13 +1,11 @@
 package main
 
 import (
-	"fmt"
 	"go-starter/internal/bootstrap"
 )
 
 func main() {
 
+	// Start everything from here
 	bootstrap.Starter()
-
-	fmt.Println("Hello, World")
 }
