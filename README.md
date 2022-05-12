@@ -1,1 +1,1 @@
-For start new GO project.
+For start new Golang project.
