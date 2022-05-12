@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"go-starter/internal/database"
+	"go-starter/internal/bootstrap"
 )
 
 func main() {
-	fmt.Println("Hello, World")
 
-	database.InitDB()
+	bootstrap.Starter()
+
+	fmt.Println("Hello, World")
 }
